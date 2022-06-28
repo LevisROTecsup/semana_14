@@ -1,0 +1,32 @@
+# Template Vite React
+
+### Clonar repositorio
+
+```sh
+git clone <url>
+```
+
+### Variables de entorno
+
+Realice una copia del archivo de variables de entorno (env.development.example) y configure las variables correspondientes.
+
+```sh
+cp env.development.example .env.development.local
+```
+.env.development.local
+```yaml
+VITE_PORT=
+VITE_BASE_URL_API=
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
